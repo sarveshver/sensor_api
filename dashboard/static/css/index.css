@@ -1,0 +1,20 @@
+/* static/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+#dashboard-container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#sensor-graph {
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+}
