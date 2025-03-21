@@ -1,0 +1,16 @@
+# Ignore the virtual environment folder
+env/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore Django migrations and database files
+*.log
+*.sqlite3
+db.sqlite3
+/migrations/
+
+# Ignore IDE files
+.vscode/
+.idea/

@@ -7,7 +7,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),  # Static files folder in the project root
 ]
-SECRET_KEY = 'django-insecure-*+o#oop=h^#14w!-o@@gp$^ae2&gb8)hbc_xs&p85h_wo=i2*x'
+import os  
+SECRET_KEY = os.getenv('SECRET_KEY', 'a91eff586dcf63855387764b8b8bde25')
+
 DEBUG = True
 ALLOWED_HOSTS = ["*"]
 INSTALLED_APPS = [
