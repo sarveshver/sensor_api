@@ -10,8 +10,9 @@ STATICFILES_DIRS = [
 import os  
 SECRET_KEY = os.getenv('SECRET_KEY', 'a91eff586dcf63855387764b8b8bde25')
 
-DEBUG = True
-ALLOWED_HOSTS = ["*"]
+DEBUG = False
+ALLOWED_HOSTS = ["esp-dash.onrender.com"]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
